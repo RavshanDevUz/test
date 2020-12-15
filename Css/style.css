@@ -1,0 +1,201 @@
+body, h1, h2, h3, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: gray;
+    border-bottom: 5px solid blue;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color:blue;
+}
+
+.navbar{
+    float:right;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: blue;
+}
+
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+   height:80vh;
+    background-image: url(../images/rr.jpg);
+    background-size: cover;
+    background-position: center -150px;
+    text-align: center;
+    color:#23A9BC   ;
+    font-family:serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top:150px; 
+}
+
+#newsletter {
+    background-color: gray;
+    color: #fff;
+    font-family:sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newsletter .left {
+    float: left;
+}
+
+#newsletter .right {
+    float:right;
+}
+
+#newsletter input {
+    padding: 5px;
+}
+.button {
+    padding: 7px 15px;
+    border: none;
+    background-color: #0B4DC9 ;
+    color: #fff;
+    margin: 15px;
+}
+
+#courses {
+    padding: 30px 0;
+}
+
+.box {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    font-family:inherit;
+}
+
+.box img{
+    max-width: 100%;
+    width: 120px;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+
+.sidebar {
+    width:30%;
+    float:right;
+    
+}
+
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+    color: #0B4DC9
+       
+}
+
+.bg-dark {
+    background-color: gray;
+  border-radius: 30px;
+background: #5f686d;
+box-shadow:  20px 20px 60px #51585d, 
+             -20px -20px 60px #6d787d;
+    color: #fff;
+    padding: 15px;
+}
+
+.service-box {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e5e5e5;
+    border-radius: 30px;
+    background: #cdd5db;
+    box-shadow:  -20px 20px 60px #aeb5ba, 
+             20px -20px 60px #ecf5fc;
+   
+}
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+.form-input, textarea{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.active {
+    color: blue !important;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #fff;
+        color: #222;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
